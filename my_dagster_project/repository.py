@@ -1,6 +1,6 @@
 from dagster import load_assets_from_package_module, repository
-
 from my_dagster_project import assets
+#from notebooks import assets
 
 
 @repository
