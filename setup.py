@@ -5,6 +5,9 @@ setup(
     packages=find_packages(exclude=["my_dagster_project_tests"]),
     install_requires=[
         "dagster",
+        "dagstermill",
+        "pandas",
+        "scikit-learn"
     ],
     extras_require={"dev": ["dagit", "pytest"]},
 )
